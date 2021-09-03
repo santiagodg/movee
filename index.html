@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mover</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="buttons">
+        <button id="moveLeft">Left</button>
+        <button id="moveDown">Down</button>
+        <button id="moveUp">Up</button>
+        <button id="moveRight">Right</button>
+        <div>
+            <label>Amount of pixels per movement:
+                <input id="pxInputID" type="number" min="0" value="20">
+            </label>
+        </div>
+        <p>You may also use the arrow keys to move the box.</p>
+    </div>
+    <div id="container" class="container">
+        <div id="box" class="box"></div>
+    </div>
+
+    <script src="js/movee/movee.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
